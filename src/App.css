@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.bg-image {
+  background-image: url(./components/./asset/./asset/firstback.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 99.4vh;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-grid {
+  background-image: url(./components/./asset/./asset/secondback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 85vh;
+  position: absolute;
+  top: 7%;
+  left: 13%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-card {
+  border: 2px solid red;
+  width: 35%;
+  float: right;
+  height: 99%;
+  background-color: #000000A2;
+  align-content: center;
+  position: relative;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login-card img {
+  position: absolute;
+  width: 50%;
+  top: 6%;
+  left: 26%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.login-card h3 {
+  position: absolute;
+  color: #FFAA17;
+  top: 20%;
+  left: 39%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  width: 75%;
+}
+.login-form label {
+color: #E7E7E7;
+font-size: 11px;
+}
+.button-group-form{
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 112%;
+  width: 101%;
+}
+.form-button{
+  border-radius: 8px 0px 0px 8px !important;
+  width: 50%;
+}
+.form-button1{
+  border-radius: 0px 8px 8px 0px !important;
+  width: 50%;
+}
+.form-button2{
+  /* border-radius: 0px 8px 8px 0px !important; */
+  width: 50%;
+  position: absolute;
+  left: 49%;
+  top: 10%;
+  height: 2rem !important;
 }
